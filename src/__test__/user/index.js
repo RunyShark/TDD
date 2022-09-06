@@ -5,5 +5,5 @@ export const saveUsername = (username) => {
 };
 
 export const getUsername = () => {
-  return storage.get({ key: 'username' });
+  return storage.get({ key: 'John doe' });
 };
